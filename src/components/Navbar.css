@@ -1,0 +1,15 @@
+.toolbar-navigation-items ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 30px;
+  display: flex;
+}
+.toolbar-navigation-items li {
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+
+.toolbar-navigation-items a:hover,
+.toolbar-navigation-items a:active {
+  color: orange;
+}
