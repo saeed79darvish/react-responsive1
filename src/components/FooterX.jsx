@@ -6,37 +6,11 @@ const FooterX = () => {
         <div style={{ backgroundColor: "#79ACB4" }}>
             <MDBFooter style={{ color: "indigo" }} className="font-small text-center pt-1">
                 <MDBContainer style={{ color: "indigo" }} >
-                    <MDBRow className="pt-5 mb-3 text-center d-flex justify-content-center">
-                        <MDBCol md="2" className="b-3">
-                            <h6 className="title font-weight-bold">
-                                <a href="#!">About us</a>
-                            </h6>
-                        </MDBCol>
-                        <MDBCol md="2" className="b-3">
-                            <h6 className="title font-weight-bold">
-                                <a href="#!">Products</a>
-                            </h6>
-                        </MDBCol>
-                        <MDBCol md="2" className="b-3">
-                            <h6 className="title font-weight-bold">
-                                <a href="#!">Awards</a>
-                            </h6>
-                        </MDBCol>
-                        <MDBCol md="2" className="b-3">
-                            <h6 className="title font-weight-bold">
-                                <a href="#!">Help</a>
-                            </h6>
-                        </MDBCol>
-                        <MDBCol md="2" className="b-3">
-                            <h6 className="title font-weight-bold">
-                                <a href="#!">Contact</a>
-                            </h6>
-                        </MDBCol>
-                    </MDBRow>
+    
                     <hr className="rgba-white-light" style={{ margin: "0 15%" }} />
                     <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
                         <MDBCol md="8" sm="12" className="mt-5">
-                            <p style={{ lineHeight: "1.7rem" }}>
+                            <p >
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                                 quae ab illo inventore veritatis et quasi architecto beatae

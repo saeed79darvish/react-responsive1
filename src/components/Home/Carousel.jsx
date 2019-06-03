@@ -5,11 +5,13 @@ import Img2 from './back_ground1.jpg';
 
 export default function CarouselPage() {
     return (
-        <div>
-            <Carousel>
+        <div >
+            <Carousel >
                 <Carousel.Item  >
                     <img
-                        className="d-block w-100 " src={Img1} alt="First slide"
+                        className="d-block w-100 "
+                        src={Img1}
+                        alt="First slide"
                     />
                     <Carousel.Caption >
                         <h3>First slide label</h3>
@@ -19,9 +21,11 @@ export default function CarouselPage() {
                 <Carousel.Item>
                     <img
 
+
                         className="d-block w-100"
-                        className="d-block w-100" src={Img2} alt="Second slide"
-                        alt="Third slide"
+                        src={Img2}
+                        alt="Second slide"
+
                     />
 
                     <Carousel.Caption>
@@ -31,12 +35,13 @@ export default function CarouselPage() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
-                        className="d-block w-100" src={Img1} alt="First slide"
+
+                        className="d-block w-100  "
+                        src={Img1}
                         alt="Third slide"
                     />
 
-                    <Carousel.Caption>
+                    <Carousel.Caption >
                         <h3>Third slide label</h3>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>

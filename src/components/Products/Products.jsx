@@ -1,12 +1,15 @@
+
+
+
 import React from "react";
 import { MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
 
 const Products = () => {
     return (
-        <section className="text-center my-5 ">
-            <h2 className="h1-responsive font-weight-bold my-5">
-                Our best projects
-        </h2>
+        <div className="text-center my-5 ">
+            <h1 className="h1-responsive font-weight-bold my-5">
+                OUR BEST PRODUCTS
+        </h1>
             <p className="grey-text w-responsive mx-auto mb-5">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -132,7 +135,7 @@ const Products = () => {
                     </MDBCardBody>
                 </MDBCol>
             </MDBRow>
-        </section>
+        </div>
     );
 }
 

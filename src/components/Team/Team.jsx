@@ -1,18 +1,20 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCard, MDBAvatar, MDBCardBody, MDBIcon } from "mdbreact";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon } from "mdbreact";
 
 const Team = () => {
     return (
-        <MDBCard className="my-0 px-0 pb-2 text-center">
+        <MDBCard className="my-0 px-0 pb-2 text-center   mb-5 bg-white rounded">
             <MDBCardBody>
+
                 <h2 className="h1-responsive font-weight-bold my-5">
                     Our amazing team
           </h2>
-                <p className="grey-text w-responsive mx-auto mb-5">
+                <p className="grey-text w-responsive">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                    error amet numquam iure provident voluptate esse quasi, veritatis
-                    totam voluptas nostrum quisquam eum porro a pariatur veniam.
+                        error amet numquam iure provident voluptate esse quasi, veritatis
+                        totam voluptas nostrum quisquam eum porro a pariatur veniam.
           </p>
+
                 <MDBRow>
                     <MDBCol lg="3" md="6" className="mb-lg-0 mb-5">
                         <img
