@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask, MDBContainer, MDBIframe } from "mdbreact";
+import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask, MDBContainer, MDBIframe } from "mdbreact";
 
 const Gallery = () => {
     return (

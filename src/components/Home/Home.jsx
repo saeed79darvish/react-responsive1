@@ -1,6 +1,5 @@
 import React from 'react'
 import FooterX from '../FooterX';
-import Team from '../Team/Team';
 import CarouselPage from './Carousel';
 import Products from '../Products/Products';
 import Gallery from '../Gallery/Gallery';
