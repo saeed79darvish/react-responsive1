@@ -20,7 +20,8 @@ class Navbarx extends Component {
                             {/* <Nav.Link href="/products">Producs</Nav.Link>
                             <Nav.Link href="gallery">Gallery</Nav.Link> */}
                             <Nav.Link href="/about">Contact Us</Nav.Link>
-                            <Nav.Link href="blog">Blog</Nav.Link>
+                            <Nav.Link href="/blog">Blog</Nav.Link>
+                            <Nav.Link href="/team">Team</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
