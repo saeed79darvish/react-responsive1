@@ -3,49 +3,35 @@ import { MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask, MDBCont
 
 const Gallery = () => {
     return (
-        <section className="text-center my-5 ">
+        <section className="text-center my-5  ">
             <h1 className="h1-responsive font-weight-bold my-5">
                 Gallery
         </h1>
-            <p className="grey-text w-responsive mx-auto mb-5">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                est laborum.
-        </p>
+            <p className="grey-text w-responsive mx-auto mb-5 p-3">
+
+            </p>
 
             <MDBRow className="d-flex justify-content-center">
                 <MDBCol md="6" xl="5" className="mb-4">
                     <MDBView className="overlay rounded z-depth-2" waves>
                         <MDBContainer className="text-center mt-3 sz-2">
-                            <MDBIframe src="https://www.youtube.com/embed/Bqa88JsYJTU" />
+                            <MDBIframe src="https://www.youtube.com/embed/bTHMg0d4lZY" />
                         </MDBContainer>
-                        <a href="#!">
-                            <MDBMask overlay="white-slight" />
-                        </a>
+
                     </MDBView>
                     <MDBCardBody className="pb-0">
-                        <a href="#!" className="green-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon fas icon="chart-line" className="pr-2" />
-                                Marketing
-                </h5>
-                        </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+
+                        <h4 className="font-weight-bold mb-3">2D to 3D Conversion</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            AR-view of products from various vendors. Each model is auto-created from a single 2D photo.
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
                 <MDBCol md="6" xl="5" className="mb-4">
                     <MDBView className="overlay rounded z-depth-2" waves>
                         <MDBContainer className="text-center mt-3 sz-2">
-                            <MDBIframe src="https://www.youtube.com/embed/Bqa88JsYJTU" />
+                            <MDBIframe src="https://www.youtube.com/embed/dsU-fozxlf0" />
                         </MDBContainer>
                         <a href="#!">
                             <MDBMask overlay="white-slight" />
@@ -53,20 +39,13 @@ const Gallery = () => {
                     </MDBView>
                     <MDBCardBody className="pb-0">
                         <a href="#!" className="blue-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon icon="eye" className="pr-2" />
-                                Entertainment
-                </h5>
+
                         </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+                        <h4 className="font-weight-bold mb-3">Seamless Integration into Mobile Web</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            In-browser AR-preview of our auto-generated models using with WebXR on both iOS and Andrioid. No app or code changes required!
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
                 <MDBCol md="6" xl="5" className="mb-4">
@@ -80,23 +59,37 @@ const Gallery = () => {
                     </MDBView>
                     <MDBCardBody className="pb-0">
                         <a href="#!" className="brown-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon icon="camera" className="pr-2" />
-                                Travel
-                </h5>
+
                         </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+                        <h4 className="font-weight-bold mb-3">Fashion Accessories</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            Any accessory on the web can be potentially tried on "virtually"!
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
-                
+
+                <MDBCol md="6" xl="5" className="mb-4">
+                    <MDBView className="overlay rounded z-depth-2" waves>
+                        <MDBContainer className="text-center mt-3 sz-2">
+                            <MDBIframe src="https://www.youtube.com/embed/e_gDnIia3K4" />
+                        </MDBContainer>
+                        <a href="#!">
+                            <MDBMask overlay="white-slight" />
+                        </a>
+                    </MDBView>
+                    <MDBCardBody className="pb-0">
+                        <a href="#!" className="brown-text">
+
+                        </a>
+                        <h4 className="font-weight-bold mb-3">Toys and Games</h4>
+                        <p>
+                            Ever wanted to drag-and-drop a character from a comic book (or a site), into your room?
+              </p>
+
+                    </MDBCardBody>
+                </MDBCol>
+
             </MDBRow>
         </section>
     );

@@ -1,20 +1,19 @@
-
-
-
 import React from "react";
-import { MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
+import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
 
 const Products = () => {
     return (
-        <div className="text-center my-5 ">
-            <h1 className="h1-responsive font-weight-bold my-5">
-                OUR BEST PRODUCTS
+        <div className="text-center my-5 p-2 ">
+            <h1 className="h1-responsive font-weight-bold my-3">
+                Consumers want 3D experiences.
+        </h1>
+            <h1 className="h1-responsive font-weight-bold my-3">
+                Threedy.ai helps industry deliver.
         </h1>
             <p className="grey-text w-responsive mx-auto mb-5">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                est laborum.
+                Using state of the art computational geometry and artificial intelligence,
+                    we are helping businesses generate and scale 3D content more quickly
+                    and cost effectively than ever before.
         </p>
 
             <MDBRow className="d-flex justify-content-center">
@@ -31,20 +30,19 @@ const Products = () => {
                     </MDBView>
                     <MDBCardBody className="pb-0">
                         <a href="#!" className="green-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon fas icon="chart-line" className="pr-2" />
-                                Marketing
-                </h5>
+
                         </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+                        <h4 className="font-weight-bold mb-3">
+                            E-Commerce</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            Our best-in-class solution,
+                           Threedy Convert™, is targeted for the
+                           retail sector and takes one or more ordinary 2D
+                           product photos and—fully automatically—turns them into high-quality 3D models.
+
+
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
                 <MDBCol md="6" xl="5" className="mb-4">
@@ -60,20 +58,17 @@ const Products = () => {
                     </MDBView>
                     <MDBCardBody className="pb-0">
                         <a href="#!" className="blue-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon icon="eye" className="pr-2" />
-                                Entertainment
-                </h5>
+
+
                         </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+                        <h4 className="font-weight-bold mb-3">
+                            Manufacturing</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            Our forthcoming AI-based solution—aimed to revolutionize
+                                 how designers and engineers develop products for manufacturing—transforms CAD
+                                        drawings into quality AR models.
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
                 <MDBCol md="6" xl="5" className="mb-4">
@@ -89,51 +84,18 @@ const Products = () => {
                     </MDBView>
                     <MDBCardBody className="pb-0">
                         <a href="#!" className="brown-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon icon="camera" className="pr-2" />
-                                Travel
-                </h5>
+
                         </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
+                        <h4 className="font-weight-bold mb-3">Scanning</h4>
                         <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
+                            Through the power of computational geometry, we are developing solutions
+                                for 3D scanning to reduce noise and improve the speed and quality of
+                                reverse engineering and 3D prototyping.
               </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
+
                     </MDBCardBody>
                 </MDBCol>
-                <MDBCol md="6" xl="5" className="mb-4">
-                    <MDBView className="overlay rounded z-depth-2" waves>
-                        <img
-                            src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Products/img (56).jpg"
-                            alt=""
-                            className="img-fluid"
-                        />
-                        <a href="#!">
-                            <MDBMask overlay="white-slight" />
-                        </a>
-                    </MDBView>
-                    <MDBCardBody className="pb-0">
-                        <a href="#!" className="cyan-text">
-                            <h5 className="font-weight-bold mt-2 mb-3">
-                                <MDBIcon icon="phone" className="pr-2" />
-                                Technology
-                </h5>
-                        </a>
-                        <h4 className="font-weight-bold mb-3">Title of the news</h4>
-                        <p>
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                            amet, consectetur, adipisci velit cupidatat proident
-                            voluptatem quia numquam.
-              </p>
-                        <MDBBtn color="success" rounded>
-                            MDBView more
-              </MDBBtn>
-                    </MDBCardBody>
-                </MDBCol>
+
             </MDBRow>
         </div>
     );

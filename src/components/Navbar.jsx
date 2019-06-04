@@ -17,8 +17,8 @@ class Navbarx extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                             <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/products">Producs</Nav.Link>
-                            <Nav.Link href="gallery">Gallery</Nav.Link>
+                            {/* <Nav.Link href="/products">Producs</Nav.Link>
+                            <Nav.Link href="gallery">Gallery</Nav.Link> */}
                             <Nav.Link href="/about">Contact Us</Nav.Link>
                             <Nav.Link href="blog">Blog</Nav.Link>
                         </Nav>

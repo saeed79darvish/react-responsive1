@@ -11,12 +11,10 @@ const FooterX = () => {
                     <MDBRow className="d-flex text-center justify-content-center mb-md-0 mb-4">
                         <MDBCol md="8" sm="12" className="mt-5">
                             <p >
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                quae ab illo inventore veritatis et quasi architecto beatae
-                                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                                voluptas sit aspernatur aut odit aut fugit, sed quia
-                                consequuntur.
+                            Threedy.ai (formerly AARWILD, Inc) is founded by a team of veteran entrepreneurs, 
+                            including Apple, Facebook, Paypal alums and Stanford PhDs. The company is backed 
+                            by prominent investors including Plug and Play Ventures, SV Frontier, Indicator 
+                            Capital, and Luc Vincent, the VP of Self-Driving at Lyft and the former head of Google Street View.
             </p>
                         </MDBCol>
                     </MDBRow>
@@ -56,7 +54,7 @@ const FooterX = () => {
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer fluid>
                         &copy; {new Date().getFullYear()} Copyright:
-          <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+          <a href="https://www.Threedy.ai"> Threedy.ai </a>
                     </MDBContainer>
                 </div>
             </MDBFooter>
