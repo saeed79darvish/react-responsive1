@@ -1,4 +1,8 @@
 import React from "react";
+import img1 from "./create_pic.png";
+import img2 from "./convert_pic.png";
+import img3 from "./capture_pic.png";
+
 import { MDBRow, MDBCol, MDBCardBody, MDBView, MDBMask } from "mdbreact";
 
 const Products = () => {
@@ -20,7 +24,7 @@ const Products = () => {
                 <MDBCol md="6" xl="5" className="mb-4">
                     <MDBView className="overlay rounded z-depth-2" waves>
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg"
+                            src={img2}
                             alt=""
                             className="img-fluid"
                         />
@@ -48,7 +52,7 @@ const Products = () => {
                 <MDBCol md="6" xl="5" className="mb-4">
                     <MDBView className="overlay rounded z-depth-2" waves>
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Others/images/19.jpg"
+                            src={img1}
                             alt=""
                             className="img-fluid"
                         />
@@ -74,7 +78,7 @@ const Products = () => {
                 <MDBCol md="6" xl="5" className="mb-4">
                     <MDBView className="overlay rounded z-depth-2" waves>
                         <img
-                            src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
+                            src={img3}
                             alt=""
                             className="img-fluid"
                         />
