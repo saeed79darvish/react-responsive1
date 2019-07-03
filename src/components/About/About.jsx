@@ -9,12 +9,14 @@ const About = () => {
                     Contact us
       </h2>
                 <p className="text-center w-responsive mx-auto m-2 pb-10">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
-                    error amet numquam iure provident voluptate esse quasi, veritatis
-                    totam voluptas nostrum quisquam eum porro a pariatur veniam.
+
+
+                    4-626 Jefferson Ave, Redwood City, CA 94063
+
+
       </p>
                 <MDBRow>
-                    <MDBCol lg="4" className="lg-2 ml-1 mb-8">
+                    {/* <MDBCol lg="4" className="lg-2 ml-1 mb-8">
                         <MDBCard>
                             <MDBCardBody>
                                 <div className="form-header blue accent-1">
@@ -66,7 +68,7 @@ const About = () => {
                                 </div>
                             </MDBCardBody>
                         </MDBCard>
-                    </MDBCol>
+                    </MDBCol> */}
                     <MDBCol lg="7">
                         <div
                             id="map-container"
@@ -97,15 +99,15 @@ const About = () => {
                                 <MDBBtn tag="a" floating color="blue" className="accent-1">
                                     <MDBIcon icon="phone" />
                                 </MDBBtn>
-                                <p>+ 01 234 567 89</p>
+                                <p>+1 (408) 412 2546</p>
                                 <p className="mb-md-0">Mon - Fri, 8:00-17:00</p>
                             </MDBCol>
                             <MDBCol md="4">
                                 <MDBBtn tag="a" floating color="blue" className="accent-1">
                                     <MDBIcon icon="envelope" />
                                 </MDBBtn>
-                                <p>info@gmail.com</p>
-                                <p className="mb-md-0">sale@gmail.com</p>
+                                <p>nima.sarshar@gmail.com</p>
+
                             </MDBCol>
                         </MDBRow>
                     </MDBCol>

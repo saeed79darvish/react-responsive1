@@ -7,8 +7,8 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Products from "./components/Products/Products";
 import Gallery from "./components/Gallery/Gallery";
-import Blog from "./components/Blog/Blog";
-import Team from "./components/Team/Team";
+// import Blog from "./components/Blog/Blog";
+// import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -17,12 +17,11 @@ function App() {
         <Navbarx />
 
         <Route exact path="/" component={Home} />
-
         <Route path="/about" component={About} />
         <Route path="/products" component={Products} />
         <Route path="/gallery" component={Gallery} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/team" component={Team} />
+        {/* <Route path="/blog" component={Blog} /> */}
+        {/* <Route path="/team" component={Team} /> */}
       </div>
     </BrowserRouter>
   );

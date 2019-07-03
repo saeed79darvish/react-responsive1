@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import Img1 from './back_ground.jpg';
-import Img2 from './background_3d_1.jpg';
+import Img1 from './background_3d_1.jpg';
+import Img2 from './backgroun_3d.jpg';
 
 
 
@@ -16,8 +16,8 @@ export default function CarouselPage() {
                         alt="First slide"
                     />
                     <Carousel.Caption >
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h2>2D to 3D Conversion</h2>
+                        <p>AR-view of products from various vendors. Each model is auto-created from a single 2D photo.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -31,23 +31,11 @@ export default function CarouselPage() {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h2>Fashion Accessories</h2>
+                        <p>Any accessory on the web can be potentially tried on "virtually"!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img
 
-                        className="d-block w-100"
-                        src={Img1}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption >
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
             </Carousel>
         </div>
     )
