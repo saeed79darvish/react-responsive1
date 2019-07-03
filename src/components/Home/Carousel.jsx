@@ -16,7 +16,7 @@ export default function CarouselPage() {
                         alt="First slide"
                     />
                     <Carousel.Caption >
-                        <h2>2D to 3D Conversion</h2>
+                        <h3>2D to 3D Conversion</h3>
                         <p>AR-view of products from various vendors. Each model is auto-created from a single 2D photo.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -31,7 +31,7 @@ export default function CarouselPage() {
                     />
 
                     <Carousel.Caption>
-                        <h2>Fashion Accessories</h2>
+                        <h3>Fashion Accessories</h3>
                         <p>Any accessory on the web can be potentially tried on "virtually"!</p>
                     </Carousel.Caption>
                 </Carousel.Item>
